@@ -1,17 +1,17 @@
-@media (min-width: 1920px) {
+@media (min-width: 1940px) {
     .intro__subtitle {
         margin-bottom: 140px;
     }
     .video__content {
         position: absolute;
-        z-index: 2;
+        z-index: 3;
         left: 0px;
     }
 }
 
-@media (max-width: 1172px) {
+@media (max-width: 1182px) {
     .wrapper {
-        max-width: 920px;
+        max-width: 940px;
         margin: 0 auto;
     }
     .header__wrapper {
@@ -21,7 +21,7 @@
         grid-template: 1fr / 1fr minmax(auto, 150px) minmax(auto, 1100px) 1fr;
     }
     .header__logo img, .footer__logo img {
-        max-width: 40px;
+        max-width: 42px;
         display: block;
     }
     .footer {
@@ -32,7 +32,7 @@
     }
     .intro__row {
         position: absolute;
-        bottom: 40px;
+        bottom: 42px;
     }
     .our__service-content:nth-child(3), .our__service-content:nth-child(5) {
         padding-left: 0px;
@@ -44,15 +44,15 @@
     }
     .video__text {
         font-weight: 600;
-        font-size: 28px;
-        line-height: 39px;
-        max-width: 215px;
+        font-size: 30px;
+        line-height: 40px;
+        max-width: 217px;
     }
 }
 
 /* Burger style Header start */
 
-@media (max-width: 980px) {
+@media (max-width: 970px) {
     body.lock {
         overflow: hidden;
     }
