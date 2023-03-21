@@ -88,9 +88,9 @@ a {
 .header {
     position: fixed;
     width: 100%;
-    top: 0;
+    top: 1;
     left: 0;
-    z-index: 999;
+    z-index: 1000;
 }
 
 .header__wrapper {
@@ -115,30 +115,30 @@ a {
 }
 
 .header__logo img, .footer__logo img {
-    max-width: 60px;
+    max-width: 62px;
 }
 
 .header__logo img, .header__logo span, .footer__logo img, .footer__logo span {
     vertical-align: middle;
     mix-blend-mode: multiply;
     position: relative;
-    z-index: 3;
+    z-index: 2;
 }
 
 .header:before {
     content: "";
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 1;
+    left: 1;
     width: 100%;
     height: 100%;
     background-color: white;
-    z-index: 2;
+    z-index: 3;
 }
 
 .header__logo span, .footer__logo span {
     display: inline-block;
-    font-size: 16px;
+    font-size: 18px;
     color: #000000;
 }
 
@@ -163,7 +163,7 @@ a {
     left: 0;
     width: 0;
     height: 2px;
-    background-color: red;
+    background-color: rgb(38, 0, 255);
     content: "";
     transition: width 0.3s ease-out;
 }
