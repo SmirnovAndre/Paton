@@ -3,7 +3,7 @@
 @font-face {
     font-family: 'Montserrat';
     font-style: normal;
-    font-weight: 450;
+    font-weight: 350;
     src: url('../fonts/montserrat-v14-latin-regular.eot');
     /* IE9 Compat Modes */
     src: local('Montserrat Regular'), local('Montserrat-Regular'), url('../fonts/montserrat-v14-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
@@ -19,7 +19,7 @@
 @font-face {
     font-family: 'Montserrat';
     font-style: normal;
-    font-weight: 550;
+    font-weight: 450;
     src: url('../fonts/montserrat-v14-latin-500.eot');
     /* IE9 Compat Modes */
     src: local('Montserrat Medium'), local('Montserrat-Medium'), url('../fonts/montserrat-v14-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
@@ -35,7 +35,7 @@
 @font-face {
     font-family: 'Montserrat';
     font-style: normal;
-    font-weight: 850;
+    font-weight: 750;
     src: url('../fonts/montserrat-v14-latin-800.eot');
     /* IE9 Compat Modes */
     src: local('Montserrat ExtraBold'), local('Montserrat-ExtraBold'), url('../fonts/montserrat-v14-latin-800.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
@@ -64,19 +64,19 @@ img {
 }
 
 .wrapper {
-    max-width: 1170px;
+    max-width: 1160px;
     margin: 0 auto;
     position: relative;
 }
 
 .section-tytle {
     font-style: normal;
-    font-weight: 800;
-    font-size: 50px;
-    line-height: 60px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
     position: relative;
     color: #313131;
-    z-index: 12;
+    z-index: 10;
 }
 
 a {
@@ -89,7 +89,7 @@ a {
     position: fixed;
     width: 100%;
     top: 1;
-    left: 0;
+    left: 1;
     z-index: 1000;
 }
 

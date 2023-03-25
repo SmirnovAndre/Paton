@@ -1,15 +1,15 @@
-@media (min-width: 1940px) {
+@media (min-width: 1920px) {
     .intro__subtitle {
         margin-bottom: 150px;
     }
     .video__content {
         position: absolute;
-        z-index: 4;
+        z-index: 2;
         left: 0px;
     }
 }
 
-@media (max-width: 1182px) {
+@media (max-width: 1172px) {
     .wrapper {
         max-width: 940px;
         margin: 0 auto;
@@ -21,7 +21,7 @@
         grid-template: 1fr / 1fr minmax(auto, 150px) minmax(auto, 1100px) 1fr;
     }
     .header__logo img, .footer__logo img {
-        max-width: 44px;
+        max-width: 42px;
         display: block;
     }
     .footer {
@@ -32,10 +32,10 @@
     }
     .intro__row {
         position: absolute;
-        bottom: 44px;
+        bottom: 42px;
     }
     .our__service-content:nth-child(3), .our__service-content:nth-child(5) {
-        padding-left: 1px;
+        padding-left: 2px;
     }
     .advantages_row {
         display: flex;
@@ -43,16 +43,16 @@
         justify-content: space-between;
     }
     .video__text {
-        font-weight: 600;
-        font-size: 30px;
-        line-height: 40px;
-        max-width: 217px;
+        font-weight: 500;
+        font-size: 35px;
+        line-height: 35px;
+        max-width: 215px;
     }
 }
 
 /* Burger style Header start */
 
-@media (max-width: 970px) {
+@media (max-width: 960px) {
     body.lock {
         overflow: hidden;
     }
@@ -61,21 +61,21 @@
     }
     .header__burger {
         display: block;
-        width: 32px;
-        height: 22px;
+        width: 30px;
+        height: 20px;
         position: absolute;
         right: 0;
         top: 50%;
-        z-index: 3;
+        z-index: 2;
     }
     .header__burger:before, .header__burger::after {
         content: " ";
-        background-color: rgb(43, 0, 255);
+        background-color: rgb(251, 0, 255);
         position: absolute;
         width: 100%;
-        height: 2px;
+        height: 1px;
         right: 10px;
-        bottom: 25px;
+        bottom: 23px;
         transition: all 0.3s ease 0s;
     }
     .header__burger:before {
@@ -86,17 +86,17 @@
     }
     .header__burger span {
         position: absolute;
-        background-color: red;
+        background-color: rgb(230, 0, 255);
         right: 10px;
         width: 100%;
-        height: 2px;
+        height: 1px;
         top: 9px;
         transition: all 0.3s ease 0s;
     }
     .header__menu {
         position: fixed;
         top: -100%;
-        left: 0;
+        left: 1;
         width: 100%;
         height: 100%;
         overflow: auto;
